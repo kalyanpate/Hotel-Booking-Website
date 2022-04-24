@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <title>payment</title>
+    <link rel="stylesheet" href="/styles/payment.css">
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+        <header class="container-fluid">
+            <div> <a href="/index.html">
+                    <img src="\assests\images\logo.png" alt="logo" height="60px" width="60px"></a>
+                
+    <!-- Button trigger modal -->
+    <button id="login" type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Login
+      </button>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Please Login</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+  
+              <form  action="#"> 
+                  <div class="mb-3 row">
+  
+                  <label for="name" class="col-sm-3 col-form-label">Username:</label>
+                  <div class="col-sm-8">
+                  <input type="text" name="Name"class="form-control" placeholder="Enter your Username" id="name" required="">
+                  </div>
+              </div>
+              
+                  <div class="mb-3 row">
+                      <label for="inputPassword" class="col-sm-3 col-form-label">Password:</label>
+                      <div class="col-sm-8">
+                        <input type="password" class="form-control" id="inputPassword">
+                      </div>
+                    </div>
+              
+                    <div class="modal-footer">
+                      <button id="btnlog" type="submit" value="submit" class="btn btn-primary" >Login</button>
+                    </div>
+              </form>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+            </div>
+        </header>
+
+
+        <content class="container-fluid">
+          <div class="continer">
+                <div class="pay1"><div>
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
+                        height="270px" width="300px">
+                        </div><div id="num1">
+                    <h2>Radisson Blu Hotel</h2>
+                    <p>#38 of 1,289 hotels in New Delhi</p>
+                    <p>National Highway 8, New Delhi 110017 India</p>
+                    </div>
+                </div>
+
+                <div class="finaldiv">
+                <div class="pay2">
+                    <p><b>Name:</b> John Doe</p>
+                    <p><b>Number of Adults:</b>2</p>
+                    <p><b>Check in Date:</b>06/06/2020</p>
+                    <p><b>Check-out Date:</b> 08/06/2020</p>
+                </div>
+                <div class="pay3">
+                    <p><b>Tariff Breakdown :</b>Rs.1000 X 2 Adults x 5 Nights</p>
+                    <p><b>Total Amount:</b>Rs.10000</p>
+                </div>
+                    <div class="pay">
+                <a href="/payment.html"><button type="button" class="btn btn-success" disabled>Pay Now</button></a></div>
+            </div>
+          </div>
+        </content>
+
+        <footer class="container-fluid">
+            <div class="col col-12">
+                <div class="row">
+                    <div class="contactus col-4">
+                        <h3 id="contact"><button type="button" class="btn btn-info btn-md mg-10px" data-bs-toggle="modal" data-bs-target="#cexampleModal">Contact Us</button></h3>
+                        <div class="modal fade" id="cexampleModal" tabindex="-1" aria-labelledby="cexampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="cexampleModalLabel">Get in touch</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Thank you for reaching out!!!</p>
+                                <p>Please enter your email and we will get back to you</p>
+                                  <form target="/index.html" action="#"> 
+                                      <div class="mb-3 row">
+                                          <label for="emailId" class="col-sm-3 col-form-label">Email :</label>
+                                          <div class="col-sm-8">
+                                            <input type="email" class="form-control" id="emailId" required="">
+                                          </div>
+                                        </div>
+                                  
+                                        <div class="modal-footer">
+                                          <button type="submit" value="submit" class="btn btn-primary  " target="/index.html" >Submit</button>
+                                        </div>
+                                  </form>
+                                </div>
+                               
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div id="par "class="col col-5">
+                        <p id="p1"> &copy 2020 ROOM SEARCH PVT. LTD.</p>
+                    </div><div class="col col-2"></div>
+                    <div  class="col col-1">
+                        <span id="span2">
+                           <a href="https://www.facebook.com/"><img class="icon" src="/assests/images/facebook.png" height="25px" width="25px"></a>
+                            <a href="https://www.instagram.com" ><img class="icon" src="/assests/images/instagram.png" height="25px" width="25px"></a>
+                            <a href="https://www.twitter.com"><img class="icon" src="/assests/images/twitter.png" height="25px" width="25px"></a>
+                        </span>
+                    </div></div>
+                </div>
+        </footer>
+
+               
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>  
+
+    
+</body>
+
+</html>

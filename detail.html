@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <title>detail</title>
+    <link rel="stylesheet" href="/styles/detail.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head>
+<body>
+    
+        <header class="container-fluid">
+    <div>
+       
+         <header class="container1" id="fistdiv" style="margin-top: 0%">
+            
+            <a href="/index.html">  <img src="/assests/images/logo.png" alt="logo" height="60px" width="60px"></a>
+          
+    <!-- Button trigger modal -->
+    <button id="login" type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Login
+      </button>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Please Login</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+  
+              <form  action="./index.html"> 
+                  <div class="mb-3 row">
+  
+                  <label for="name" class="col-sm-3 col-form-label">Username:</label>
+                  <div class="col-sm-8">
+                  <input type="text" name="Name"class="form-control" placeholder="Enter your Username" id="name" required="">
+                  </div>
+              </div>
+              
+                  <div class="mb-3 row">
+                      <label for="inputPassword" class="col-sm-3 col-form-label">Password:</label>
+                      <div class="col-sm-8">
+                        <input type="password" class="form-control" id="inputPassword">
+                      </div>
+                    </div>
+              
+                    <div class="modal-footer">
+                      <button id="btnlog" type="submit" value="submit" class="btn btn-primary" >Login</button>
+                    </div>
+              </form>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+        
+    </header>
+
+    </div>
+</header>
+<content class="container-fluid">
+    <div>
+        <div class="conatiner1">
+            <div class="flexbox1">
+                <img id="detailimg"
+                    src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" height="350px"
+                    width="500px">
+                
+            </div>
+            <div class="flexbox2">
+                <form action="./payment.html" method="GET">
+                  <span>  <label for="adult">Adults :</label>
+                    <input type="number" id="number" value="number" name="adults" required=""></span><br>
+                    <span><label for="name">Name :</label>
+                    <input type="text" name="name" required=" "></span>
+                    <br>
+                    <span> <label for="fdate">From Date :</label>
+                    <input type="date" name="fromdate" value="date" required=""></span>
+                    <br>
+                    <span> <label for="tdate">To Date :</label>
+                    <input type="date" name="todate" required=""></span>
+                    <br>
+                    <span>  <label for="total">Total :</label>
+                    <input type="number" name="toatl" value="number" disabled></span>
+                    <br>
+                  <button type="button" id="booknow" target="payment.html " class="btn btn-outline-success btn-md">Book Now</button>
+                    
+                </form>
+            </div>
+        </div>
+
+
+        <div class="detail02">
+            <h2>Radisson Blu Hotel</h2>
+            <h3 class="heading">RATING </h3>
+            <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+
+            <dl class="heading">ADVERTISING</dl>
+            <ul>
+                <li>Room Service</li>
+                <li>Restaurent</li>
+                <li>Buisness Centre</li>
+                <li>Fitness Centre</li>
+                <li>Pool</li>
+            </ul>
+            </dl>
+            <h5 class="heading">DESCRIPTION</h5>
+            <P>The essence of Radisson Blu is reflected in every aspect of who we are and what we do. We provide
+                unparalleled service, comfort and style, while creating meaningful and memorable experiences.
+                Your Radisson Blu experience should be all about personalization, every step of the way. By paying close
+                attention to the small details that make a big difference, we inspire unforgettable experiences with
+                every stay. Step into stylish spaces designed for business and leisure in some of the world’s favorite
+                destinations. Our culinary experts strive to deliver cutting edge, stylish, sophisticated gastronomy to
+                every Radisson Blu dining experience.
+
+            </P>
+        </div>
+    </div>
+</content>
+
+<footer class="container-fluid">
+      <div class="col col-12">
+        <div class="row">
+            <div class="contactus col-4">
+                <h3 id="contact"><button type="button" class="btn btn-info btn-md mg-10px" data-bs-toggle="modal" data-bs-target="#cexampleModal">Contact Us</button></h3>
+        <div class="modal fade" id="cexampleModal" tabindex="-1" aria-labelledby="cexampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="cexampleModalLabel">Get in touch</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Thank you for reaching out!!!</p>
+                <p>Please enter your email and we will get back to you</p>
+                  <form target="/index.html" action="#"> 
+                      <div class="mb-3 row">
+                          <label for="emailId" class="col-sm-3 col-form-label">Email :</label>
+                          <div class="col-sm-8">
+                            <input type="email" class="form-control" id="emailId" required="">
+                          </div>
+                        </div>
+                  
+                        <div class="modal-footer">
+                          <button type="submit" value="submit" class="btn btn-primary  " target="/index.html" >Submit</button>
+                        </div>
+                  </form>
+                </div>
+               
+              </div>
+            </div>
+          </div>
+            </div>
+            <div id="par "class="col col-5">
+                <p id="p1"> &copy 2020 ROOM SEARCH PVT. LTD.</p>
+            </div><div class="col col-2"></div>
+            <div  class="col col-1">
+                <span id="span2">
+                   <a href="https://www.facebook.com/"><img class="icon" src="/assests/images/facebook.png" height="25px" width="25px"></a>
+                    <a href="https://www.instagram.com" ><img class="icon" src="/assests/images/instagram.png" height="25px" width="25px"></a>
+                    <a href="https://www.twitter.com"><img class="icon" src="/assests/images/twitter.png" height="25px" width="25px"></a>
+                </span>
+            </div></div>
+        </div>
+  
+</footer>
+
+       
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>  
+
+    
+</body>
+</html>
