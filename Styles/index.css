@@ -1,1 +1,163 @@
-Steles 
+body{
+    display: block;
+    background-color: #e0e0e0;
+    margin: 0%;
+    font-family: sans-serif;
+    
+}
+
+/*  header function */
+header{
+        display: flex;
+        background-color: rosybrown;
+        width: 100%;  
+        top: 0;
+        height: 60px;
+        position: fixed;
+}
+
+
+footer{
+    display: flex;
+    background-color: rosybrown;
+    width: 100%; 
+    bottom: 0;
+    height: 60px;
+    flex-direction: row;
+ position: fixed;
+}
+
+.contectdiv{
+    margin-top: 60px;
+    background-attachment: scroll;
+    width: 100%;
+    
+}
+
+
+a{ text-decoration: none;
+color: black; }
+
+
+
+
+#firstdiv{
+    margin-top: 0%;
+    
+}
+#form1{
+    margin-top: 0%;
+    background-image: url(https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg );
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    margin: 0%;
+    background-size: 100% 400px;
+    background-attachment: scroll;
+
+}
+#searchbar{
+    height: 12%;
+    width: 25%;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    padding: 10px; 
+    margin-left: 40%;
+    margin-top: 10%;
+    font-family: sans-serif;
+    font-size: 12px;
+    outline: none;
+}
+
+
+
+.index2{
+margin-left: 15%;
+margin-right: 10%;
+}
+
+#login{
+    display: inline;
+  top: 10px;
+    float: right;
+    position: absolute;
+  right: 16px;
+}
+
+
+#zero{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 10%;
+    margin-right: 2%;
+}
+
+.container {
+  position: relative;
+ width: 200px;
+}
+
+.cityi1 {
+
+    border-radius: 25%;
+cursor: pointer;
+  box-shadow: 10px 10px 10px grey;
+}
+
+.overlay {
+  border-radius: 25%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 150px;
+  width: 150px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-left: 13px;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 60px;
+  left: 40px;
+
+}
+
+
+
+
+#view{
+    text-align: center;
+    margin: 5%;
+}
+
+
+
+
+#contact{ float: left; padding: 10px;}
+
+
+#p1{ text-align: center; 
+    font-size: 10px;
+    padding: 20px;
+}
+
+.icon{right: 0;
+  left: 20px;
+  top: 10px;
+    position: relative;
+    padding: 3px 3px;
+}
+ 
+ 
