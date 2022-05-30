@@ -12,6 +12,21 @@ header{
     height: 60px;
     position: fixed;
 }
+#logo-id{
+    position: absolute;
+    left: 10px;
+  
+  }
+  header[role="navigation"] {
+    display: flex;
+  
+    justify-content: space-around;
+  }
+  footer[role="navigation"] {
+    display: flex;
+  
+    justify-content: space-around;
+  }
 
 
 footer{

@@ -1,4 +1,5 @@
-body{display: flex;
+body{
+    display: flex;
     background-color: #e0e0e0;
     margin: 0%;
     font-family: sans-serif;
@@ -15,6 +16,21 @@ header{
 .checked {
     color: orange;
 }
+#logo-id{
+    position: absolute;
+    left: 10px;
+  
+  }
+  header[role="navigation"] {
+    display: flex;
+  
+    justify-content: space-around;
+  }
+  footer[role="navigation"] {
+    display: flex;
+  
+    justify-content: space-around;
+  }
 
 footer{
 display: flex;
@@ -25,7 +41,12 @@ height: 60px;
 position: fixed;
 justify-content: space-between;
 }
-
+.result-div{
+    float: right;
+    border: 2px solid black ;
+    height: 30px;
+    width: 280px;
+}
 a{
     text-decoration: none;
     color: black;
@@ -46,7 +67,7 @@ content{
 }
 .flexbox1{  
     border: 1px solid black;
-    width: 65%;
+    width: 60%;
     margin-bottom: 1%;
 }
 .flexbox2{  
@@ -65,6 +86,13 @@ content{
     margin-left: 20%;
     margin-right: 4%;
     margin-bottom: 1%;
+    height: 350px;
+  
+}
+.arrow{
+    color: rosybrown;
+ 
+
 }
 #booknow{
     width: 100px;
@@ -84,7 +112,7 @@ label{
 input{ 
     width: 60%;
   float: right;
-  background-color: #e0e0e0;
+  background-color: white;
  
 }
 .detail02{

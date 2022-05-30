@@ -15,7 +15,21 @@ header{
         height: 60px;
         position: fixed;
 }
+#logo-id{
+  position: absolute;
+  left: 10px;
 
+}
+header[role="navigation"] {
+  display: flex;
+
+  justify-content: space-around;
+}
+footer[role="navigation"] {
+  display: flex;
+
+  justify-content: space-around;
+}
 
 footer{
     display: flex;
@@ -93,7 +107,7 @@ margin-right: 10%;
     margin-left: 10%;
     margin-right: 2%;
 }
-
+#more{ display: none;}
 .container {
   position: relative;
  width: 200px;

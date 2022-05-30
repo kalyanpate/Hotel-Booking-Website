@@ -18,7 +18,24 @@ header{
     margin-bottom: 5%;
 
 }
-
+#map{
+    display: none;
+}
+#logo-id{
+    position: absolute;
+    left: 10px;
+  
+  }
+  header[role="navigation"] {
+    display: flex;
+  
+    justify-content: space-around;
+  }
+  footer[role="navigation"] {
+    display: flex;
+  
+    justify-content: space-around;
+  }
 footer{
 display: flex;
 background-color: rosybrown;
@@ -89,9 +106,7 @@ flex-flow: row wrap;
     text-decoration: none;
 
 }
-h2{
 
-}
 
 #contact{ float: left; padding: 10px; }
 
